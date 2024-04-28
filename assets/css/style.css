@@ -567,6 +567,12 @@ section.homepage-sectionsecond h3 a:hover {
     text-align: center;
     color: #A09EAB;
 }
+.width-100{
+    width: 100%;
+}
+.h-400{
+    height: 400px;
+}
 .services-home .text-blck span {
     font-style: normal;
     font-weight: bold;
@@ -581,7 +587,7 @@ section.homepage-sectionsecond h3 a:hover {
     font-family: 'Nordeco';
     font-style: normal;
     font-size: 17px;
-    color: #A09EAB;
+    color: #f7f7f7;
     text-transform: capitalize;
 }
 .services-home {
