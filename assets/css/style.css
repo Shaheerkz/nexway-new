@@ -5016,18 +5016,18 @@ footer.main-footer .footer-row1 .row {
     -o-transform: scale(1.1);
 }
 
-.col-sm-4:nth-child(1) .card,
-.col-sm-4:nth-child(1) .card .title .fa {
+.col-md-4:nth-child(1) .card,
+.col-md-4:nth-child(1) .card .title .fa {
     background: linear-gradient(-45deg, #f403d1, #64b5f6);
 }
 
-.col-sm-4:nth-child(2) .card,
-.col-sm-4:nth-child(2) .card .title .fa {
+.col-md-4:nth-child(2) .card,
+.col-md-4:nth-child(2) .card .title .fa {
     background: linear-gradient(-45deg, #ffec61, #f321d7);
 }
 
-.col-sm-4:nth-child(3) .card,
-.col-sm-4:nth-child(3) .card .title .fa {
+.col-md-4:nth-child(3) .card,
+.col-md-4:nth-child(3) .card .title .fa {
     background: linear-gradient(-45deg, #24ff72, #9a4eff);
 }
 
@@ -6840,6 +6840,12 @@ section.case-inner-secthree .fonts-case-study .fonts-name li {
 
 
 @media screen and (max-width: 768px){
+    .main-logo {
+        max-width: 100px;
+    }
+    .string{
+        display: none;
+    }
 .mobile-hide{
     display: none !important;
 }
@@ -7150,9 +7156,9 @@ section.homepage-sectionsecond .hero-main-rp.container .row {
     font-size: 35px;
 }
 
-section.inner-banner {
+/* section.inner-banner {
     height: 270px;
-}
+} */
 .inner-banner h1{
     font-size: 32px;
     padding: 0px 35px;
